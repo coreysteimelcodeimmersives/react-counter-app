@@ -9,19 +9,10 @@ function App() {
   const removeOne = (count) => {
     if (count > 0) {
       setCount(count - 1);
-      // let lastStar = starContainer.lastElementChild;
-      // lastStar.remove();
     }
-    // countNumber.innerHTML = count;
   };
   const addOne = (count) => {
     setCount(count + 1);
-    // countNumber.innerHTML = count;
-    // for (let i = count; i === count; i++) {
-    //   const newStar = document.createElement("span");
-    //   newStar.className = "fa fa-star checked fa-lg";
-    //   starContainer.appendChild(newStar);
-    // }
   };
   return (
     <div className="App">
