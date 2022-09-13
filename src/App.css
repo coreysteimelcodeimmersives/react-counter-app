@@ -1,38 +1,61 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.OutBox {
+  border: 4px solid black;
+  height: 800px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.InnerBox {
+  border: 2px solid black;
+  height: 775px;
+  width: 375px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.LogoBox {
+  display: flex;
+  flex-direction: row;
+  width: 355px;
+  height: 45px;
+  background-color: red;
+  padding: 5px;
+  margin: 5px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.LogoWords {
+  margin: 5px;
+}
+
+.CounterArea {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 10px;
+  width: 355px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.checked {
+  color: gold;
+}
+
+.fa {
+  border-radius: 30%;
+  border: solid gold;
+  padding: 10px;
 }
