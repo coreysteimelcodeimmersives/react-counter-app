@@ -50,6 +50,12 @@
   align-items: center;
 }
 
+.StarContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .checked {
   color: gold;
 }
